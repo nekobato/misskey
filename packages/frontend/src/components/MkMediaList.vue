@@ -172,6 +172,10 @@ onMounted(() => {
 		history.pushState(null, '', '#pswp');
 	});
 
+	lightbox.on('afterInit', () => {
+		(document.querySelector('.pswp') as HTMLDivElement).focus();
+	});
+
 	lightbox.on('close', () => {
 		if (window.location.hash === '#pswp') {
 			history.back();
