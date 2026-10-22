@@ -37,7 +37,7 @@ jobs:
       with:
         version: 8
         run_install: false
-    - name: Use Node.js 20.x
+    - name: Use Node.js from .node-version
       uses: actions/setup-node@v3.6.0
       with:
         node-version-file: '.node-version'
