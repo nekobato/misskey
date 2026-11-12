@@ -1,7 +1,7 @@
 # syntax = docker/dockerfile:1.4
 
-ARG NODE_IMAGE=22.23.4-bookworm@sha256:2bd396628eceb5c999a6e43731fab69d5fb98b94ba9d9d90b5f64575c5178765
-ARG NODE_SLIM_IMAGE=22.23.4-bookworm-slim@sha256:5991875dfb80938dd8a6ba3fe3e96fd04929e70792762b3319d8caadbbe229bc
+ARG NODE_IMAGE=22.23.5-bookworm@sha256:e13726ca604184d7a91fcacab1fc09eefd642dc28e79ac34e85540dd93b78cfb
+ARG NODE_SLIM_IMAGE=22.23.5-bookworm-slim@sha256:e9f565d32859f0cbfb52125eafe8be39390f24dac302dc3cdf566e8ba3ab21ee
 
 # build assets & compile TypeScript
 
